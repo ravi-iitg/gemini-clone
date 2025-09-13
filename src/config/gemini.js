@@ -7,7 +7,6 @@ import {
 const MODEL_NAME = "gemini-2.0-flash";
 
 // Paste Your API KEY Below
-//const API_KEY = "AIzaSyBY9Z9ZhuWreNiIKVUn5JD1jannPlrktK8";
 
 const API_KEY = import.meta.env.VITE_CHATBOT_API_KEY;
 async function runChat(prompt) {
